@@ -15,7 +15,7 @@ local flyEnabled = false
 local tpwalking = false
 local nowe = false
 
-local Hub = Lib.CreateMain("✦ HYSAGEN HUB ✦")
+local Hub = Lib.CreateMain("HYSAGEN HUB")
 
 -- Функции для NameTags
 local function clearNameTags()

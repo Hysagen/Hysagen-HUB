@@ -1,4 +1,4 @@
-local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hysagen-Hub/MyOwnModule/refs/heads/main/module')))()
+local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hysagen/Module-for-GUI-by-Hysagen/refs/heads/main/module')))()
 
 local players = game:GetService("Players")
 local RunService = game:GetService("RunService")

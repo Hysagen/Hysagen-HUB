@@ -17,7 +17,6 @@ local nowe = false
 
 local Hub = Lib.CreateMain("HYSAGEN HUB")
 
--- Функции для NameTags
 local function clearNameTags()
 	for _, tag in pairs(nameTags) do
 		if tag then tag:Destroy() end
@@ -75,7 +74,6 @@ local function updateNameTags()
 	end
 end
 
--- FLY MODE (оригинальный)
 local function toggleFlyLogic(state)
 	local speaker = localPlayer
 	local chr = speaker.Character
@@ -134,7 +132,6 @@ local function toggleFlyLogic(state)
 	end
 end
 
--- noclip
 local function noclip()
 	local char = localPlayer.Character
 	if not char then return end
@@ -145,14 +142,12 @@ local function noclip()
 	end
 end
 
--- FullBright
 local function fullBright()
 	game.Lighting.GlobalShadows = false
 	game.Lighting.Brightness = 1
 	game.Lighting.ShadowSoftness = 0
 end
 
--- Вкладки
 local MainTab = Hub:CreateTab("⚡ Main")
 
 local speedValue = 16
@@ -214,7 +209,6 @@ for name, url in pairs(scripts) do
 	ScriptTab:AddButtonRow(name, "Load", function() loadstring(game:HttpGet(url))() end)
 end
 
--- Основные циклы
 RunService.RenderStepped:Connect(function(dt)
 	local char = localPlayer.Character
 	local hum = char and char:FindFirstChild("Humanoid")
@@ -242,7 +236,6 @@ localPlayer.CharacterAdded:Connect(function(char)
 	if char:FindFirstChild("Animate") then char.Animate.Disabled = false end
 end)
 
--- Открытие/закрытие UI по Insert
 UserInputService.InputBegan:Connect(function(input)
 	if input.KeyCode == Enum.KeyCode.Delete then
 		Hub.ScreenGui.Enabled = not Hub.ScreenGui.Enabled

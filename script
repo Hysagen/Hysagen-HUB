@@ -202,7 +202,8 @@ local scripts = {
 	["Auto Block Forsaken"] = "https://raw.githubusercontent.com/skibidi399/Auto-block-script/refs/heads/main/FINAL%20AUTO%20BLOCK",
 	["Flip Script"] = "https://raw.githubusercontent.com/SHRTRYScriptMANhere/stolenahhfrotflip/refs/heads/main/Flip",
 	["Tank Game"] = "https://raw.githubusercontent.com/Hysagen/Tank-Game-Gui/refs/heads/main/script",
-	["Fatal Floors"] = "https://raw.githubusercontent.com/Hysagen/Fatal-Floors/refs/heads/main/script"
+	["Fatal Floors"] = "https://raw.githubusercontent.com/Hysagen/Fatal-Floors/refs/heads/main/script",
+	["YBA script"] = "https://raw.githubusercontent.com/Hysagen/YBA-3P-50LVL/refs/heads/main/script"
 }
 
 for name, url in pairs(scripts) do

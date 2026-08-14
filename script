@@ -198,11 +198,11 @@ local ScriptTab = Hub:CreateTab("📜 Scripts")
 
 local scripts = {
 	["Infinite Yield"] = "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
-	["Bang GUI"] = "https://raw.githubusercontent.com/Hysagen-Hub/FUCK-BANG-GUI/refs/heads/main/main",
-	["Auto Block"] = "https://raw.githubusercontent.com/skibidi399/Auto-block-script/refs/heads/main/FINAL%20AUTO%20BLOCK",
+	["Bang GUI"] = "https://raw.githubusercontent.com/Hysagen/BANG-GUI/refs/heads/main/script",
+	["Auto Block Forsaken"] = "https://raw.githubusercontent.com/skibidi399/Auto-block-script/refs/heads/main/FINAL%20AUTO%20BLOCK",
 	["Flip Script"] = "https://raw.githubusercontent.com/SHRTRYScriptMANhere/stolenahhfrotflip/refs/heads/main/Flip",
-	["Tank Game"] = "https://raw.githubusercontent.com/Hysagen-Hub/Tank-Game-Gui/main/Main",
-	["Fatal Floors"] = "https://raw.githubusercontent.com/Hysagen-Hub/Fatal-Floors/refs/heads/main/Main"
+	["Tank Game"] = "https://raw.githubusercontent.com/Hysagen/Tank-Game-Gui/refs/heads/main/script",
+	["Fatal Floors"] = "https://raw.githubusercontent.com/Hysagen/Fatal-Floors/refs/heads/main/script"
 }
 
 for name, url in pairs(scripts) do
